@@ -5,6 +5,7 @@
 	<title>Cinemax</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="shortcut icon" href="img/icono.jpg">
 </head>
 <body class="container">
 	<header>
@@ -16,13 +17,11 @@
 				<p class="movie">MOVIE THEATER</p>
 			</div>
 			<div class="col-3">
-				<div class="buscar">
-					<form action="#" method="post"> 
-					<fieldset class="searchform">
-					<input type="text" value="Buscar..." class="searchfield" onfocus="if (this.value == 'Buscar...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Buscar...';}"/> 
-					<input type="button" value="Ir" class="searchbutton"/>
-					</fieldset>
-					</form>
+				<div class="search">
+				<FORM method=GET action="http://www.google.es/search"> 
+					<input type="search" name="q" placeholder="Buscar" class="buscar">
+					<input type="submit" name=search value="Buscar" class="buscar">
+    			</FORM> 
 				</div>
 			</div>
 		</div>
