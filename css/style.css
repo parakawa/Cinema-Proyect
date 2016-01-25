@@ -1,0 +1,236 @@
+/*css boton buscar*/
+
+/*fin css boton buscar*/
+
+header{
+	border: 1px solid green;
+}
+.logo{
+	width: 300px;
+	height: 50px;
+	border: 1px solid black;
+	margin-left: 40px;
+}
+
+.movie{
+	font-size: 10px;
+	margin-top: 20px;
+	font-weight: 800;
+	color: grey;
+}
+
+.banner{
+	margin-left: 850px;
+	margin-top: 20px;
+	width: 350px;
+	color: white;
+
+}
+
+.fondo{
+	background-image: url("../img/banner.jpg");
+	height: 400px;
+	border: 1px solid blue;
+}
+
+.big{
+	font-size: 40px;
+	color: white;
+	font-weight: 600;
+	padding-bottom: 10px;
+	border-bottom: 2px solid grey;
+	margin:10px 0;
+}
+.linea{
+	border:1px solid transparent;
+	height:30px;
+}
+
+.linea p{
+	font-size: 12px;
+	color: #e8e3e3; /*grey*/
+	margin-top: 7px;
+}
+.apt{
+	font-size: 12px;
+	color: green;
+	border: 2px solid 	;
+	width: 55px;
+	height: 30px;
+	border-radius: 10%;
+	padding-top: 5px;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.banner ul{
+	clear: both;
+	list-style-type: none;
+	font-size: 12px;
+	color: #e8e3e3; /*grey*/
+}
+
+.banner ul li{
+	margin-bottom: 10px;
+}
+
+.banner p{
+	font-size: 12px;
+	color: #e8e3e3; /*grey*/
+}
+
+.banner button{
+    border: none;
+    color: white;
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 3px;
+    display: block;
+    margin: 10px 0;
+}
+
+.naranja-claro{
+	background-color: #ffd323;
+
+}
+
+.naranja-dorado{
+	background-color: #ce9a40;
+}
+}
+
+.galeria{
+	background-color: orange;
+	height: 260px;
+	padding-left: 45px;
+
+}
+
+.foto-galeria{
+	width: 185px;
+	height: 210px;
+	float: left;
+	margin: 25px 10px;
+}
+
+.video{
+	height: 300px;
+	width: 100%;	
+}
+
+.izq{
+	padding: 80px;
+}
+
+.izq h2{
+	padding-bottom: 15px;
+	padding-top: -15px;
+	color:grey;
+}
+
+.izq h1{
+	font-size: 35px;
+	padding: 10px 0 15px;
+}
+
+.book{
+	background-color: #e59937; /*orange*/
+	border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.izq p{
+	font-size: 12px;
+	color: #b5800e; /*orange*/
+	padding-top: 30px;
+	font-weight: 900;
+}
+
+.der{
+	padding: 75px 80px 0 0;
+	font-size: 12px;
+}
+
+.der h1{
+	color: grey;
+	font-size: 23px;
+}
+
+.post{
+	padding: 30px 0;
+	border-bottom:1px solid #ccbfbf; /*grey*/
+}
+
+.post p{
+	color: grey;
+}
+
+.post p:first-child{
+	color: black;
+	font-weight: 600;
+}
+
+.der a{
+	font-size: 12px;
+	color: #b5800e; /*orange*/
+	font-weight: 600;
+	text-decoration: none;
+	margin-top: 30px;
+}
+
+.post:last-child{
+	margin-bottom: 30px;
+}
+
+.pelis{
+	padding: 0 80px 30px;
+}
+
+.foto-pelis{
+	width: 269px;
+	height: 250px;
+	margin-right: 23px;
+}
+
+.foto-pelis:last-child{
+	margin-right: 0;
+}
+
+footer{
+	background-color: #eae8e8;/*grey*/
+	height: 200px;
+	font-size: 11px;
+	padding: 30px 80px;
+	font-weight: 600;
+	color: #7c7171;/*grey*/
+}
+
+.indonesia{
+	margin-top: 30px;
+}
+
+.indonesia{
+	font-size: 13px;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
