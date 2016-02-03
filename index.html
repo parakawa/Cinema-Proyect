@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="shortcut icon" href="img/icono.jpg">
 </head>
-<body class="container">
+<body>
 	<header>
 		<div class="row">
 			<div class="col-4">
@@ -18,15 +18,14 @@
 			</div>
 			<div class="col-3">
 				<div class="search">
-				<FORM method=GET action="http://www.google.es/search"> 
-					<input type="search" name="q" placeholder="Buscar" class="buscar">
-					<input type="submit" name=search value="Buscar" class="buscar">
-    			</FORM> 
+				<form method=GET action="http://www.google.es/search"> 
+					<input type="search" name="q" placeholder="Buscar..." class="buscar">
+    			</form> 
 				</div>
 			</div>
 		</div>
 	</header>
-	<div class="container">
+	<section>
 		<div class="caja">
 			<img src="img/banner.jpg" class="fondo">
 			<div class="banner">
@@ -35,11 +34,20 @@
 					<div class="apt">All Age</div>
 					<p>Don Hall, Chris Williams</p>
 				</div>	
-				<ul>
-					<li>Ratting &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :  8.5</li>
-					<li>Genre&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :  Animation, Action, Comedy</li>
-					<li>Release &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : 7 November 2014</li>
-				</ul>
+				<table>
+					<tr>
+						<td>Ratting</td>
+						<td>: 8,5/10</td>
+					</tr>
+					<tr>
+						<td>Genre</td>
+						<td>: Action, Animation, Comedy</td>
+					</tr>
+					<tr>
+						<td>Release</td>
+						<td>: 7 Nov 2015</td>
+					</tr>
+				</table>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut 
@@ -48,7 +56,7 @@
 				<button class="naranja-dorado">BOOK TICKET</button>
 			</div>
 		</div>
-	</div>
+	</section>
 	<section class="galeria">
 		<div class="row">
 			<div class="col-2"><img src="img/imagen1.jpg" class="foto-galeria"></div>
@@ -62,7 +70,7 @@
 	<section class="ticket">
 		<div class="row">
 			<div class="col-6">
-				<div class="izq">
+				<div class="izquierda">
 					<h2>Don't be late,</h2>
 					<h1>Book your ticket now!</h1>
 					<h2>Easy,simple & fast</h2>
@@ -71,7 +79,7 @@
 				</div>
 			</div>
 			<div class="col-6">
-				<div class="der">
+				<div class="derecha">
 					<h1>News</h1>
 					<div class="post">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
